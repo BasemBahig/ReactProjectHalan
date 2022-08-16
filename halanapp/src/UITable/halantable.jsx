@@ -8,12 +8,15 @@ function JsonDataDisplay(){
 			return(
 				<tr>
 					<td>{info.id}</td>
+
 					<td>{info.name}</td>
+
 					<td>{info.age}</td>
 					<td>{info.address}</td>
 					<td>{info.city}</td>
                     <td>{info.date}</td>
                     <td>{info.email}</td>
+                    <td>{info.AttendORnot}</td>
 
 				</tr>
 			)
@@ -32,6 +35,7 @@ function JsonDataDisplay(){
 					<th>City</th>
                     <th>Date</th>
                     <th>Email</th>
+                    <th>Attend OR Not</th>
 					</tr>
 				</thead>
 				<tbody>
@@ -40,10 +44,13 @@ function JsonDataDisplay(){
 					{DisplayData}
 					
 				</tbody>
+                
 			</table>
 			
 		</div>
 	)
+    
 }
+
 
 export default JsonDataDisplay;

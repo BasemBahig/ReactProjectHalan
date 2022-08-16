@@ -2,6 +2,11 @@
   text-align: center;
   color: blueviolet;
   background-color: azure;
+  table-layout:inherit;
+  width: 1350px;
+  height: 1350px;
+  row-gap: 20px;  
+  grid-row: flex;
 }
 
 .App-logo {
@@ -37,4 +42,5 @@
   to {
     transform: rotate(360deg);
   }
+  
 }

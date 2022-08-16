@@ -30,6 +30,12 @@ npm run build
 then
 npm install -g serve
 
+## M3
+to handle different input types in React
+https://reactjs.org/docs/forms.html#handling-multiple-inputs
+
+we can create a handleInputChange
+
 
 ## Fix M2
 add 
