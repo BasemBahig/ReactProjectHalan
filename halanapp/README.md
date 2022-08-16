@@ -15,10 +15,34 @@ data.json
 halantable.jsx
 # In data.json
 we will create the table components
-
-
 We will use .map() function to parse each object of  JSON file and return <tr> component with JSON object as table data.
 
+## M2
+To print React Table to PDF
+npm i react-to-print
+add in JSX:
+import jspdf from 'jspdf'
+faced error after install above 
+have been uninstalled then
+added
+import React, {}  from 'react';
+npm run build
+then
+npm install -g serve
+
+
+## Fix M2
+add 
+import jsPDF from "jspdf";
+import "jspdf-autotable";
+and 
+install 
+npm i jspdf
+create file jspdf.umd.min.js
+create new file jspdf.plugin.autotable.js
+
+npm i jspdf-autotable
+npm install bootstrap --save
 
 
 # Getting Started with Create React App

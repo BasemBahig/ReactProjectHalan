@@ -1,6 +1,12 @@
 //import logo from './logo.svg';
+import {jsPDF} from "jspdf";
+import "jspdf-autotable";
 import './App.css';
+import React, { }  from 'react';
 import JsonDataDisplay from './UITable/halantable';
+const doc = new jsPDF();
+doc.autoTable({ html: '#halantable' })
+doc.save('table.pdf')
 function App() {
 return (
 	<div className="App">
@@ -10,6 +16,7 @@ return (
 	</div>
 );
 }
+
 
 export default App;
 

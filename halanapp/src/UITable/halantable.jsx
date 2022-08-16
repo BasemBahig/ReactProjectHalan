@@ -1,4 +1,6 @@
 import React from 'react'
+//import jspdf from 'jspdf'
+//import pdf from './pdf'
 import JsonData from './data.json'
 function JsonDataDisplay(){
 	const DisplayData=JsonData.map(
