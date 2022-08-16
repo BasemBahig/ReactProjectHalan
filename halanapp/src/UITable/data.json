@@ -1,0 +1,52 @@
+[
+    "Customers",
+    {
+        "id":1,
+        "name":"Basem",
+        "age":12,
+        "address":"12 St in Cairo",
+        "city":"Cairo",
+        "date": "2012-04-23T18:25:43.511Z",
+        "email": "jobathon1@halan.com"
+    },
+    
+    {
+        "id":2,
+        "name":"Adel",
+        "age":20,
+        "address":"14 St in Cairo",
+        "city":"Assiut",
+        "date": "2012-05-23T18:25:43.511Z",
+        "email": "jobathon2@halan.com"
+    },
+    
+    {
+        "id":3,
+        "name":"Samy",
+        "age":30,
+        "address":"22 St in Cairo",
+        "city":"Aswan",
+        "date": "2020-05-23T18:25:43.511Z",
+        "email": "jobathon3@halan.com"
+    },
+    
+    {
+        "id":4,
+        "name":"Ahmed",
+        "age":40,
+        "address":"33 St in Cairo",
+        "city":"Assiut",
+        "date": "2014-05-23T18:25:43.511Z",
+        "email": "jobathon4@halan.com"
+    },
+    
+    {
+        "id":5,
+        "name":"Akshit",
+        "age":30,
+        "address":"65 St in Cairo",
+        "city":"Assiut",
+        "date": "2018-05-23T18:25:43.511Z",
+        "email": "jobathon5@halan.com"
+    }
+]

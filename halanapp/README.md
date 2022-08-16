@@ -1,3 +1,28 @@
+## halanapp
+This is the Jobathon Project related to Halan app
+# Steps applied in this project:
+1- Instal React App 
+using how to start document:
+https://create-react-app.dev/docs/getting-started
+npx create-react-app my-app
+cd my-app
+npm start
+# M1
+Under SRC Create:
+ UITable folder
+Then Create :
+data.json
+halantable.jsx
+# In data.json
+we will create the table components
+
+
+We will use .map() function to parse each object of  JSON file and return <tr> component with JSON object as table data.
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

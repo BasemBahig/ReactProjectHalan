@@ -1,8 +1,19 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
-
+import JsonDataDisplay from './UITable/halantable';
 function App() {
-  return (
+return (
+	<div className="App">
+	<h1>Hello Halan !!!</h1>
+	<JsonDataDisplay/>
+
+	</div>
+);
+}
+
+export default App;
+
+  /* return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -19,7 +30,7 @@ function App() {
         </a>
       </header>
     </div>
-  );
-}
+  ); */
+//}
 
-export default App;
+//export default App;
