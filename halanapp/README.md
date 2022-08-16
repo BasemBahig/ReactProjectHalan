@@ -21,8 +21,6 @@ We will use .map() function to parse each object of  JSON file and return <tr> c
 
 
 
-
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
